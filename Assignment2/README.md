@@ -1,11 +1,13 @@
 # Assignment 2
-Capture flow data with pmacct to a CSV file. Write a python script to load 
-the CSV file into a PANDAS dataframe, print the minimum and maximum 
-number of flow bytes, and plot the histogram of flow bytes; 
-**all with PANDAS functions (use v1.4 of PANDAS).** Showing detail in the histogram
- so do not use the default number of bins, use many more.
- Hint: use column=’BYTES’ as one of the arguments to the hist() function to 
-get it to work correctly. Submit this python script through Blackboard. 
+
+Capture flow data with *pmacct* to a CSV file in *linux Ubuntu19*.
+Write a python script to load the CSV file into a *PANDAS dataframe*,
+print the minimum and maximum number of flow bytes, and plot the histogram
+ of flow bytes; **all with PANDAS functions (use v1.4 of PANDAS).** 
+ Showing detail in the histogram so do not use the default number of bins,
+ use many more. Hint: use column=’BYTES’ as one of the arguments to the hist() 
+ function to get it to work correctly. 
+ Submit this python script through Blackboard. 
 
 ## Script 
 ``` python 
